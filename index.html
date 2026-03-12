@@ -7,8 +7,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Poppins:wght@300;400;500;600&family=Montserrat:wght@300;400;500;600&family=Caveat:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
         :root {
-            --dark-bg: #1a0f14;
-            --dark-secondary: #2d1a22;
+            --dark-bg: #1a1520;
+            --dark-secondary: #2d1a2a;
             --soft-pink: #f8c8d8;
             --pink-glow: #ffb6c1;
             --magenta: #e91e63;
@@ -334,7 +334,7 @@
             justify-content: flex-start;
             align-items: center;
             overflow: hidden;
-            background: linear-gradient(180deg, #1a0f14 0%, #2d1a22 40%, #3d2230 70%, #1a0f14 100%);
+            background: radial-gradient(ellipse at 50% 100%, #1a0d2e 0%, #0a0510 60%);
         }
         .ending-text-container {
             position: absolute;
@@ -346,9 +346,9 @@
             width: 90%;
             pointer-events: none;
         }
-        .ending-main-text { font-family: 'Playfair Display', serif; font-size: clamp(1.4rem,5vw,3rem); color: #fff; max-width: 800px; margin: 0 auto; line-height: 1.4; text-shadow: 0 0 20px rgba(255,105,180,0.8), 0 0 40px rgba(255,105,180,0.5), 0 2px 4px rgba(0,0,0,0.3); opacity: 0; transform: scale(0.9); transition: all 1s cubic-bezier(0.4,0,0.2,1); }
+        .ending-main-text { font-family: 'Playfair Display', serif; font-size: clamp(1.4rem,5vw,3rem); color: #fff; max-width: 800px; margin: 0 auto; line-height: 1.4; text-shadow: 0 0 30px rgba(255,182,193,0.6), 0 0 60px rgba(255,182,193,0.3); opacity: 0; transform: scale(0.9); transition: all 1s cubic-bezier(0.4,0,0.2,1); }
         .ending-main-text.visible { opacity: 1; transform: scale(1); }
-        .ending-sub-text { font-family: 'Montserrat', sans-serif; font-size: clamp(0.85rem,2.5vw,1.2rem); color: #ffd6e6; margin-top: 18px; letter-spacing: 3px; text-shadow: 0 0 15px rgba(255,105,180,0.6), 0 2px 4px rgba(0,0,0,0.3); opacity: 0; transition: opacity 1s ease 0.5s; }
+        .ending-sub-text { font-family: 'Montserrat', sans-serif; font-size: clamp(0.85rem,2.5vw,1.2rem); color: var(--soft-pink); margin-top: 18px; letter-spacing: 3px; text-shadow: 0 0 20px rgba(255,182,193,0.5); opacity: 0; transition: opacity 1s ease 0.5s; }
         .ending-sub-text.visible { opacity: 1; }
 
         /* FIQTOR Flowers */
